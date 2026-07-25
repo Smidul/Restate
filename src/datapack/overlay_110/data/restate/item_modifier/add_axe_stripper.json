@@ -1,10 +1,10 @@
 [
     {
-        "type": "minecraft:set_custom_data",
+        "function": "minecraft:set_custom_data",
         "tag": "{restate_version: 2}"
     },
     {
-        "type": "minecraft:set_components",
+        "function": "minecraft:set_components",
         "components": {
             "minecraft:block_transformer": [
                 {

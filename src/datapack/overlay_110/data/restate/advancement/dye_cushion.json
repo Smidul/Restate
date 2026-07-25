@@ -4,13 +4,9 @@
             "trigger": "minecraft:started_riding",
             "conditions": {
                 "player": {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "equipment": {
-                            "mainhand": {
-                                "items": "#restate:dyes_cushions"
-                            }
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#restate:dyes_cushions"
                         }
                     }
                 }

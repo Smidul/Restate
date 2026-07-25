@@ -1,12 +1,21 @@
 {
-	"pack": {
-		"description": [
-			{
-				"text": "Instantly dye or bleach placed blocks, and strip fences and walls connections.",
-				"color": "gold"
-			}
-		],
-		"min_format": 110,
-		"max_format": 110
-	}
+  "pack": {
+    "min_format": 110,
+    "max_format": 112,
+    "description": [
+      {
+        "text": "Instantly dye or bleach placed blocks, and strip fences and walls connections.",
+        "color": "gold"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_110",
+        "min_format": 110,
+        "max_format": 110
+      }
+    ]
+  }
 }

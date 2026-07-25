@@ -1,62 +1,70 @@
 {
     "type": "minecraft:block",
-    "functions": [
-        {
-            "function": "minecraft:explosion_decay"
-        }
-    ],
     "pools": [
         {
+            "rolls": {
+                "type": "minecraft:constant",
+                "value": 1.0
+            },
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:wheat",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "age": "7"
-                            }
+                    "name": "minecraft:wheat",
+                    "condition": {
+                        "type": "minecraft:match_block",
+                        "blocks": "minecraft:wheat",
+                        "state": {
+                            "age": "7"
                         }
-                    ],
-                    "name": "minecraft:wheat"
+                    },
+                    "modifier": [
+                        {
+                            "type": "minecraft:explosion_decay"
+                        }
+                    ]
                 }
-            ],
-            "rolls": 1.0
+            ]
         },
         {
-            "conditions": [
-                {
-                    "block": "minecraft:wheat",
-                    "condition": "minecraft:block_state_property",
-                    "properties": {
-                        "age": "7"
-                    }
-                }
-            ],
+            "rolls": {
+                "type": "minecraft:constant",
+                "value": 1.0
+            },
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
+                    "name": "minecraft:wheat_seeds",
+                    "condition": {
+                        "type": "minecraft:match_block",
+                        "blocks": "minecraft:wheat",
+                        "state": {
+                            "age": "7"
+                        }
+                    },
+                    "modifier": [
                         {
+                            "type": "minecraft:apply_bonus",
                             "enchantment": "minecraft:fortune",
                             "formula": "minecraft:binomial_with_bonus_count",
-                            "function": "minecraft:apply_bonus",
                             "parameters": {
                                 "extra": 3,
                                 "probability": 0.5714286
                             }
                         },
                         {
-                            "function": "minecraft:set_count",
-                            "count": -1,
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:constant",
+                                "value": -1
+                            },
                             "add": true
+                        },
+                        {
+                            "type": "minecraft:explosion_decay"
                         }
-                    ],
-                    "name": "minecraft:wheat_seeds"
+                    ]
                 }
-            ],
-            "rolls": 1.0
+            ]
         }
     ],
     "random_sequence": "minecraft:blocks/wheat"
