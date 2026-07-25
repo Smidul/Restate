@@ -1,0 +1,12 @@
+{
+	"pack": {
+		"description": [
+			{
+				"text": "Instantly dye or bleach placed blocks, and strip fences and walls connections.",
+				"color": "gold"
+			}
+		],
+		"min_format": 110,
+		"max_format": 110
+	}
+}

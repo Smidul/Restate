@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "description": "Instantly dye or bleach placed blocks, and strip fences and walls connections.",
+        "icon": {
+            "id": "minecraft:netherite_axe"
+        },
+        "show_toast": false,
+        "title": "Restate     "
+    },
+    "parent": "tweakidul:root"
+}

@@ -1,0 +1,17 @@
+execute if items entity @s weapon.mainhand minecraft:red_dye run function restate:cushion/apply_color {color:"red", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:blue_dye run function restate:cushion/apply_color {color:"blue", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:green_dye run function restate:cushion/apply_color {color:"green", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:yellow_dye run function restate:cushion/apply_color {color:"yellow", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:orange_dye run function restate:cushion/apply_color {color:"orange", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:brown_dye run function restate:cushion/apply_color {color:"brown", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:purple_dye run function restate:cushion/apply_color {color:"purple", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:cyan_dye run function restate:cushion/apply_color {color:"cyan", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:light_gray_dye run function restate:cushion/apply_color {color:"light_gray", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:gray_dye run function restate:cushion/apply_color {color:"gray", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:pink_dye run function restate:cushion/apply_color {color:"pink", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:lime_dye run function restate:cushion/apply_color {color:"lime", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:light_blue_dye run function restate:cushion/apply_color {color:"light_blue", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:magenta_dye run function restate:cushion/apply_color {color:"magenta", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:black_dye run function restate:cushion/apply_color {color:"black", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:white_dye run function restate:cushion/apply_color {color:"white", sound:"minecraft:item.dye.use"}
+execute if items entity @s weapon.mainhand minecraft:paper run function restate:cushion/apply_color {color:"white", sound:"minecraft:entity.villager.work_cartographer"}

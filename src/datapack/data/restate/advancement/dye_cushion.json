@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "mounted": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#restate:dyes_cushions"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "restate:cushion/dye_router"
+    }
+}

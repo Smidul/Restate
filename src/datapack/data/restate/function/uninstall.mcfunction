@@ -1,0 +1,1 @@
+advancement revoke @a only restate:dye_cushion
