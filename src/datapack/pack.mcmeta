@@ -1,7 +1,7 @@
 {
   "pack": {
     "min_format": 110,
-    "max_format": 112,
+    "max_format": 113,
     "description": [
       {
         "text": "Instantly dye or bleach placed blocks, and strip fences and walls connections.",
