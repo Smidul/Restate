@@ -1,23 +1,23 @@
 {
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:tick"
-        }
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "gray",
+      "text": "Instantly dyes or bleaches placed blocks and strips fence and wall connections."
     },
-    "display": {
-        "announce_to_chat": false,
-        "description": {
-            "text": "Instantly dyes or bleaches placed blocks and strips fence and wall connections.",
-            "color": "gray"
-        },
-        "icon": {
-            "id": "minecraft:netherite_axe"
-        },
-        "show_toast": false,
-        "title": {
-            "text": "Restate",
-            "color": "#69E38A"
-        }
+    "icon": {
+      "id": "minecraft:netherite_axe"
     },
-    "parent": "tweakidul:root"
+    "show_toast": false,
+    "title": {
+      "color": "#69E38A",
+      "text": "Restate"
+    }
+  },
+  "parent": "tweakidul:root"
 }
