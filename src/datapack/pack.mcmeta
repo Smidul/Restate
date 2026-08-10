@@ -6,16 +6,7 @@
         "text": "Instantly dyes or bleaches placed blocks and strips fence and wall connections."
       }
     ],
-    "min_format": 110,
-    "max_format": 113
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "overlay_110",
-        "max_format": 110,
-        "min_format": 110
-      }
-    ]
+    "min_format": 115,
+    "max_format": 115
   }
 }

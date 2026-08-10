@@ -1,7 +1,7 @@
 [
     {
         "type": "minecraft:set_custom_data",
-        "tag": "{restate_version: 2}"
+        "tag": "{restate_version: 3}"
     },
     {
         "type": "minecraft:set_components",
@@ -32,9 +32,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:white_wool"
-                                        }
+                                        "state": "minecraft:white_wool"
                                     }
                                 }
                             },
@@ -59,9 +57,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:white_wool_stairs"
-                                        }
+                                        "state": "minecraft:white_wool_stairs"
                                     }
                                 }
                             },
@@ -86,9 +82,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:white_wool_slab"
-                                        }
+                                        "state": "minecraft:white_wool_slab"
                                     }
                                 }
                             },
@@ -113,9 +107,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:glass"
-                                        }
+                                        "state": "minecraft:glass"
                                     }
                                 }
                             },
@@ -140,9 +132,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:white_carpet"
-                                        }
+                                        "state": "minecraft:white_carpet"
                                     }
                                 }
                             },
@@ -167,9 +157,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:terracotta"
-                                        }
+                                        "state": "minecraft:terracotta"
                                     }
                                 }
                             },
@@ -194,9 +182,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:white_concrete"
-                                        }
+                                        "state": "minecraft:white_concrete"
                                     }
                                 }
                             },
@@ -221,9 +207,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:white_concrete_powder"
-                                        }
+                                        "state": "minecraft:white_concrete_powder"
                                     }
                                 }
                             },
@@ -248,9 +232,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:glass_pane"
-                                        }
+                                        "state": "minecraft:glass_pane"
                                     }
                                 }
                             },
@@ -275,9 +257,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:shulker_box"
-                                        }
+                                        "state": "minecraft:shulker_box"
                                     }
                                 }
                             },
@@ -302,9 +282,7 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:candle"
-                                        }
+                                        "state": "minecraft:candle"
                                     }
                                 }
                             },
@@ -329,9 +307,57 @@
                                     "type": "minecraft:copy_properties_provider",
                                     "source": {
                                         "type": "minecraft:simple_state_provider",
-                                        "state": {
-                                            "Name": "minecraft:white_banner"
+                                        "state": "minecraft:white_banner"
+                                    }
+                                }
+                            },
+                            {
+                                "if_true": {
+                                    "type": "minecraft:all_of",
+                                    "predicates": [
+                                        {
+                                            "type": "minecraft:matching_block_tag",
+                                            "tag": "minecraft:concrete_stairs"
+                                        },
+                                        {
+                                            "type": "minecraft:not",
+                                            "predicate": {
+                                                "type": "minecraft:matching_blocks",
+                                                "blocks": "minecraft:white_concrete_stairs"
+                                            }
                                         }
+                                    ]
+                                },
+                                "then": {
+                                    "type": "minecraft:copy_properties_provider",
+                                    "source": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": "minecraft:white_concrete_stairs"
+                                    }
+                                }
+                            },
+                            {
+                                "if_true": {
+                                    "type": "minecraft:all_of",
+                                    "predicates": [
+                                        {
+                                            "type": "minecraft:matching_block_tag",
+                                            "tag": "minecraft:concrete_slabs"
+                                        },
+                                        {
+                                            "type": "minecraft:not",
+                                            "predicate": {
+                                                "type": "minecraft:matching_blocks",
+                                                "blocks": "minecraft:white_concrete_slab"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "then": {
+                                    "type": "minecraft:copy_properties_provider",
+                                    "source": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": "minecraft:white_concrete_slab"
                                     }
                                 }
                             }

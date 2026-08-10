@@ -1,7 +1,7 @@
 [
     {
         "type": "minecraft:set_custom_data",
-        "tag": "{restate_version: 2}"
+        "tag": "{restate_version: 3}"
     },
     {
         "type": "minecraft:set_components",
@@ -19,11 +19,11 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:nether_brick_fence",
-                                        "Properties": {
+                                        "id": "minecraft:nether_brick_fence",
+                                        "properties": {
+                                            "east": "false",
                                             "north": "false",
                                             "south": "false",
-                                            "east": "false",
                                             "west": "false"
                                         }
                                     }
@@ -37,13 +37,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:cobblestone_wall",
-                                        "Properties": {
+                                        "id": "minecraft:cobblestone_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -56,13 +56,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:mossy_cobblestone_wall",
-                                        "Properties": {
+                                        "id": "minecraft:mossy_cobblestone_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -75,13 +75,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:stone_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:stone_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -94,13 +94,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:mossy_stone_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:mossy_stone_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -113,13 +113,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:andesite_wall",
-                                        "Properties": {
+                                        "id": "minecraft:andesite_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -132,13 +132,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:diorite_wall",
-                                        "Properties": {
+                                        "id": "minecraft:diorite_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -151,13 +151,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:granite_wall",
-                                        "Properties": {
+                                        "id": "minecraft:granite_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -170,13 +170,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:sandstone_wall",
-                                        "Properties": {
+                                        "id": "minecraft:sandstone_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -189,13 +189,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:red_sandstone_wall",
-                                        "Properties": {
+                                        "id": "minecraft:red_sandstone_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -208,13 +208,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -227,13 +227,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:prismarine_wall",
-                                        "Properties": {
+                                        "id": "minecraft:prismarine_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -246,13 +246,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:nether_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:nether_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -265,13 +265,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:red_nether_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:red_nether_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -284,13 +284,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:end_stone_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:end_stone_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -303,13 +303,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:blackstone_wall",
-                                        "Properties": {
+                                        "id": "minecraft:blackstone_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -322,13 +322,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:polished_blackstone_wall",
-                                        "Properties": {
+                                        "id": "minecraft:polished_blackstone_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -341,13 +341,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:polished_blackstone_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:polished_blackstone_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -360,13 +360,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:deepslate_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:deepslate_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -379,13 +379,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:deepslate_tile_wall",
-                                        "Properties": {
+                                        "id": "minecraft:deepslate_tile_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -398,13 +398,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:cobbled_deepslate_wall",
-                                        "Properties": {
+                                        "id": "minecraft:cobbled_deepslate_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -417,13 +417,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:mud_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:mud_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -436,13 +436,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:tuff_wall",
-                                        "Properties": {
+                                        "id": "minecraft:tuff_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -455,13 +455,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:polished_tuff_wall",
-                                        "Properties": {
+                                        "id": "minecraft:polished_tuff_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }
@@ -474,13 +474,13 @@
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
                                     "state": {
-                                        "Name": "minecraft:tuff_brick_wall",
-                                        "Properties": {
+                                        "id": "minecraft:tuff_brick_wall",
+                                        "properties": {
+                                            "east": "none",
                                             "north": "none",
                                             "south": "none",
-                                            "east": "none",
-                                            "west": "none",
-                                            "up": "true"
+                                            "up": "true",
+                                            "west": "none"
                                         }
                                     }
                                 }

@@ -1,7 +1,7 @@
 [
     {
         "type": "minecraft:set_custom_data",
-        "tag": "{restate_version: 2}"
+        "tag": "{restate_version: 3}"
     },
     {
         "type": "minecraft:set_components",
@@ -18,12 +18,7 @@
                                 },
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
-                                    "state": {
-                                        "Name": "minecraft:wheat",
-                                        "Properties": {
-                                            "age": "0"
-                                        }
-                                    }
+                                    "state": "minecraft:wheat"
                                 }
                             }
                         ]
@@ -44,12 +39,7 @@
                                 },
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
-                                    "state": {
-                                        "Name": "minecraft:carrots",
-                                        "Properties": {
-                                            "age": "0"
-                                        }
-                                    }
+                                    "state": "minecraft:carrots"
                                 }
                             }
                         ]
@@ -70,12 +60,7 @@
                                 },
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
-                                    "state": {
-                                        "Name": "minecraft:potatoes",
-                                        "Properties": {
-                                            "age": "0"
-                                        }
-                                    }
+                                    "state": "minecraft:potatoes"
                                 }
                             }
                         ]
@@ -96,12 +81,7 @@
                                 },
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
-                                    "state": {
-                                        "Name": "minecraft:beetroots",
-                                        "Properties": {
-                                            "age": "0"
-                                        }
-                                    }
+                                    "state": "minecraft:beetroots"
                                 }
                             }
                         ]
@@ -136,12 +116,7 @@
                                 },
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
-                                    "state": {
-                                        "Name": "minecraft:farmland",
-                                        "Properties": {
-                                            "moisture": "0"
-                                        }
-                                    }
+                                    "state": "minecraft:farmland"
                                 }
                             }
                         ]
@@ -177,9 +152,7 @@
                                 },
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
-                                    "state": {
-                                        "Name": "minecraft:dirt"
-                                    }
+                                    "state": "minecraft:dirt"
                                 }
                             }
                         ]
@@ -201,9 +174,7 @@
                                 },
                                 "then": {
                                     "type": "minecraft:simple_state_provider",
-                                    "state": {
-                                        "Name": "minecraft:dirt"
-                                    }
+                                    "state": "minecraft:dirt"
                                 }
                             }
                         ]
