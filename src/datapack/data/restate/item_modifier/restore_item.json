@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": "{restate_version: 4}"
+        }
+      },
+      "on_pass": "restate:remove_transformer"
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "#minecraft:axes",
+        "predicates": {
+          "minecraft:custom_data": "{restate_version: 4}"
+        }
+      },
+      "on_pass": "restate:restore_axe_transformer"
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "#minecraft:hoes",
+        "predicates": {
+          "minecraft:custom_data": "{restate_version: 4}"
+        }
+      },
+      "on_pass": "restate:restore_hoe_transformer"
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": "{restate_version: 4}"
+        }
+      },
+      "on_pass": "restate:clear_restate_marker"
+    }
+  ]
+}

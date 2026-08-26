@@ -2,11 +2,11 @@
   "pack": {
     "description": [
       {
-        "color": "#A43D3D",
+        "color": "#69E38A",
         "text": "Instantly dyes or bleaches placed blocks and strips fence and wall connections."
       }
     ],
-    "min_format": 115,
-    "max_format": 115
+    "min_format": 118,
+    "max_format": 118
   }
 }

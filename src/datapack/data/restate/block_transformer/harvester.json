@@ -1,0 +1,62 @@
+[
+  {
+    "block_state_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": { "type": "minecraft:matching_blocks", "blocks": "minecraft:wheat" },
+          "then": { "type": "minecraft:simple_state_provider", "state": "minecraft:wheat" }
+        }
+      ]
+    },
+    "loot": "restate:blocks/wheat",
+    "drop_strategy": "from_middle",
+    "item_damage_per_use": 1,
+    "sound": "minecraft:block.crop.break"
+  },
+  {
+    "block_state_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": { "type": "minecraft:matching_blocks", "blocks": "minecraft:carrots" },
+          "then": { "type": "minecraft:simple_state_provider", "state": "minecraft:carrots" }
+        }
+      ]
+    },
+    "loot": "restate:blocks/carrots",
+    "drop_strategy": "from_middle",
+    "item_damage_per_use": 1,
+    "sound": "minecraft:block.crop.break"
+  },
+  {
+    "block_state_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": { "type": "minecraft:matching_blocks", "blocks": "minecraft:potatoes" },
+          "then": { "type": "minecraft:simple_state_provider", "state": "minecraft:potatoes" }
+        }
+      ]
+    },
+    "loot": "restate:blocks/potatoes",
+    "drop_strategy": "from_middle",
+    "item_damage_per_use": 1,
+    "sound": "minecraft:block.crop.break"
+  },
+  {
+    "block_state_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": { "type": "minecraft:matching_blocks", "blocks": "minecraft:beetroots", "state": { "age": "3" } },
+          "then": { "type": "minecraft:simple_state_provider", "state": "minecraft:beetroots" }
+        }
+      ]
+    },
+    "loot": "restate:blocks/beetroots",
+    "drop_strategy": "from_middle",
+    "item_damage_per_use": 1,
+    "sound": "minecraft:block.crop.break"
+  }
+]

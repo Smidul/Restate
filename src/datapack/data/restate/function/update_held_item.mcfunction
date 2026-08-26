@@ -1,4 +1,3 @@
-# Apply transformers
 execute if items entity @s weapon.mainhand #minecraft:hoes run item modify entity @s weapon.mainhand restate:add_harvester
 execute if items entity @s weapon.mainhand #minecraft:axes run item modify entity @s weapon.mainhand restate:add_axe_stripper
 execute if items entity @s weapon.mainhand #minecraft:pickaxes run item modify entity @s weapon.mainhand restate:add_pickaxe_stripper

@@ -1,0 +1,486 @@
+[
+          {
+            "block_state_provider": {
+              "type": "minecraft:rule_based_state_provider",
+              "rules": [
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:nether_brick_fence"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:nether_brick_fence",
+                      "properties": {
+                        "east": "false",
+                        "north": "false",
+                        "south": "false",
+                        "west": "false"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:cobblestone_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:cobblestone_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:mossy_cobblestone_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:mossy_cobblestone_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:stone_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:stone_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:mossy_stone_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:mossy_stone_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:andesite_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:andesite_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:diorite_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:diorite_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:granite_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:granite_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:sandstone_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:sandstone_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:red_sandstone_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:red_sandstone_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:prismarine_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:prismarine_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:nether_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:nether_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:red_nether_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:red_nether_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:end_stone_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:end_stone_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:blackstone_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:blackstone_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:polished_blackstone_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:polished_blackstone_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:polished_blackstone_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:polished_blackstone_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:deepslate_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:deepslate_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:deepslate_tile_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:deepslate_tile_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:cobbled_deepslate_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:cobbled_deepslate_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:mud_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:mud_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:tuff_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:tuff_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:polished_tuff_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:polished_tuff_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if_true": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "minecraft:tuff_brick_wall"
+                  },
+                  "then": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "id": "minecraft:tuff_brick_wall",
+                      "properties": {
+                        "east": "none",
+                        "north": "none",
+                        "south": "none",
+                        "up": "true",
+                        "west": "none"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "update_from_neighbors": false,
+            "item_damage_per_use": 1,
+            "sound": "minecraft:ui.stonecutter.take_result"
+          }
+]
