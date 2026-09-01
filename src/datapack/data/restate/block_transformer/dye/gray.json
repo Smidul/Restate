@@ -1,387 +1,387 @@
 [
   {
-  "block_state_provider": {
-    "type": "minecraft:rule_based_state_provider",
-    "rules": [
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:wool"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_wool"
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:wool"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_wool"
+                }
               }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_wool"
             }
-          ]
+          }
         },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_wool"
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "restate:glass"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_stained_glass"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_stained_glass"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:wool_stairs"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_wool_stairs"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_wool_stairs"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:wool_slabs"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_wool_slab"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_wool_slab"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "restate:carpets"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_carpet"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_carpet"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:terracotta"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_terracotta"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_terracotta"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:glazed_terracotta"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_glazed_terracotta"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_glazed_terracotta"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:concrete"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_concrete"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_concrete"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "restate:concrete_powder"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_concrete_powder"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_concrete_powder"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "restate:glass_panes"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_stained_glass_pane"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_stained_glass_pane"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:shulker_boxes"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_shulker_box"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_shulker_box"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:candles"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_candle"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_candle"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:banners"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_banner"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_banner"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:concrete_stairs"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_concrete_stairs"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_concrete_stairs"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:concrete_slabs"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_concrete_slab"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:copy_properties",
+            "source": {
+              "type": "minecraft:simple",
+              "state": "minecraft:gray_concrete_slab"
+            }
           }
         }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "restate:glass"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_stained_glass"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_stained_glass"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:wool_stairs"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_wool_stairs"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_wool_stairs"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:wool_slabs"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_wool_slab"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_wool_slab"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "restate:carpets"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_carpet"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_carpet"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:terracotta"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_terracotta"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_terracotta"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:glazed_terracotta"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_glazed_terracotta"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_glazed_terracotta"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:concrete"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_concrete"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_concrete"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "restate:concrete_powder"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_concrete_powder"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_concrete_powder"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "restate:glass_panes"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_stained_glass_pane"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_stained_glass_pane"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:shulker_boxes"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_shulker_box"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_shulker_box"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:candles"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_candle"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_candle"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:banners"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_banner"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_banner"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:concrete_stairs"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_concrete_stairs"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_concrete_stairs"
-          }
-        }
-      },
-      {
-        "if_true": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:concrete_slabs"
-            },
-            {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:gray_concrete_slab"
-              }
-            }
-          ]
-        },
-        "then": {
-          "type": "minecraft:copy_properties_provider",
-          "source": {
-            "type": "minecraft:simple_state_provider",
-            "state": "minecraft:gray_concrete_slab"
-          }
-        }
-      }
-    ]
-  },
-  "update_from_neighbors": false,
-  "item_damage_per_use": 0,
-  "sound": "minecraft:item.dye.use"
+      ]
+    },
+    "update_from_neighbors": false,
+    "item_damage_per_use": 0,
+    "sound": "minecraft:item.dye.use"
   }
 ]

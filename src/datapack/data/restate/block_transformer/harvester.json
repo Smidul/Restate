@@ -1,11 +1,17 @@
 [
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
-          "if_true": { "type": "minecraft:matching_blocks", "blocks": "minecraft:wheat" },
-          "then": { "type": "minecraft:simple_state_provider", "state": "minecraft:wheat" }
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:wheat"
+          },
+          "then": {
+            "type": "minecraft:simple",
+            "state": "minecraft:wheat"
+          }
         }
       ]
     },
@@ -16,11 +22,17 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
-          "if_true": { "type": "minecraft:matching_blocks", "blocks": "minecraft:carrots" },
-          "then": { "type": "minecraft:simple_state_provider", "state": "minecraft:carrots" }
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:carrots"
+          },
+          "then": {
+            "type": "minecraft:simple",
+            "state": "minecraft:carrots"
+          }
         }
       ]
     },
@@ -31,11 +43,17 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
-          "if_true": { "type": "minecraft:matching_blocks", "blocks": "minecraft:potatoes" },
-          "then": { "type": "minecraft:simple_state_provider", "state": "minecraft:potatoes" }
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:potatoes"
+          },
+          "then": {
+            "type": "minecraft:simple",
+            "state": "minecraft:potatoes"
+          }
         }
       ]
     },
@@ -46,11 +64,20 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
-          "if_true": { "type": "minecraft:matching_blocks", "blocks": "minecraft:beetroots", "state": { "age": "3" } },
-          "then": { "type": "minecraft:simple_state_provider", "state": "minecraft:beetroots" }
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:beetroots",
+            "state": {
+              "age": "3"
+            }
+          },
+          "then": {
+            "type": "minecraft:simple",
+            "state": "minecraft:beetroots"
+          }
         }
       ]
     },

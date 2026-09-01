@@ -1,7 +1,7 @@
 [
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -9,7 +9,7 @@
             "blocks": "minecraft:oak_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:oak_fence",
               "properties": {
@@ -27,7 +27,7 @@
             "blocks": "minecraft:spruce_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:spruce_fence",
               "properties": {
@@ -45,7 +45,7 @@
             "blocks": "minecraft:birch_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:birch_fence",
               "properties": {
@@ -63,7 +63,7 @@
             "blocks": "minecraft:jungle_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:jungle_fence",
               "properties": {
@@ -81,7 +81,7 @@
             "blocks": "minecraft:acacia_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:acacia_fence",
               "properties": {
@@ -99,7 +99,7 @@
             "blocks": "minecraft:dark_oak_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:dark_oak_fence",
               "properties": {
@@ -117,7 +117,7 @@
             "blocks": "minecraft:mangrove_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:mangrove_fence",
               "properties": {
@@ -135,7 +135,7 @@
             "blocks": "minecraft:cherry_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:cherry_fence",
               "properties": {
@@ -153,7 +153,7 @@
             "blocks": "minecraft:pale_oak_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:pale_oak_fence",
               "properties": {
@@ -171,7 +171,7 @@
             "blocks": "minecraft:poplar_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:poplar_fence",
               "properties": {
@@ -189,7 +189,7 @@
             "blocks": "minecraft:bamboo_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:bamboo_fence",
               "properties": {
@@ -207,7 +207,7 @@
             "blocks": "minecraft:crimson_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:crimson_fence",
               "properties": {
@@ -225,7 +225,7 @@
             "blocks": "minecraft:warped_fence"
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:warped_fence",
               "properties": {
@@ -245,7 +245,7 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -253,9 +253,9 @@
             "blocks": "minecraft:oak_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_oak_wood"
             }
           }
@@ -266,9 +266,9 @@
             "blocks": "minecraft:oak_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_oak_log"
             }
           }
@@ -279,9 +279,9 @@
             "blocks": "minecraft:dark_oak_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_dark_oak_wood"
             }
           }
@@ -292,9 +292,9 @@
             "blocks": "minecraft:dark_oak_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_dark_oak_log"
             }
           }
@@ -305,9 +305,9 @@
             "blocks": "minecraft:pale_oak_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_pale_oak_wood"
             }
           }
@@ -318,9 +318,9 @@
             "blocks": "minecraft:pale_oak_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_pale_oak_log"
             }
           }
@@ -331,9 +331,9 @@
             "blocks": "minecraft:poplar_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_poplar_wood"
             }
           }
@@ -344,9 +344,9 @@
             "blocks": "minecraft:poplar_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_poplar_log"
             }
           }
@@ -357,9 +357,9 @@
             "blocks": "minecraft:acacia_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_acacia_wood"
             }
           }
@@ -370,9 +370,9 @@
             "blocks": "minecraft:acacia_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_acacia_log"
             }
           }
@@ -383,9 +383,9 @@
             "blocks": "minecraft:cherry_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_cherry_wood"
             }
           }
@@ -396,9 +396,9 @@
             "blocks": "minecraft:cherry_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_cherry_log"
             }
           }
@@ -409,9 +409,9 @@
             "blocks": "minecraft:birch_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_birch_wood"
             }
           }
@@ -422,9 +422,9 @@
             "blocks": "minecraft:birch_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_birch_log"
             }
           }
@@ -435,9 +435,9 @@
             "blocks": "minecraft:jungle_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_jungle_wood"
             }
           }
@@ -448,9 +448,9 @@
             "blocks": "minecraft:jungle_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_jungle_log"
             }
           }
@@ -461,9 +461,9 @@
             "blocks": "minecraft:spruce_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_spruce_wood"
             }
           }
@@ -474,9 +474,9 @@
             "blocks": "minecraft:spruce_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_spruce_log"
             }
           }
@@ -487,9 +487,9 @@
             "blocks": "minecraft:warped_stem"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_warped_stem"
             }
           }
@@ -500,9 +500,9 @@
             "blocks": "minecraft:warped_hyphae"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_warped_hyphae"
             }
           }
@@ -513,9 +513,9 @@
             "blocks": "minecraft:crimson_stem"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_crimson_stem"
             }
           }
@@ -526,9 +526,9 @@
             "blocks": "minecraft:crimson_hyphae"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_crimson_hyphae"
             }
           }
@@ -539,9 +539,9 @@
             "blocks": "minecraft:mangrove_wood"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_mangrove_wood"
             }
           }
@@ -552,9 +552,9 @@
             "blocks": "minecraft:mangrove_log"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_mangrove_log"
             }
           }
@@ -565,9 +565,9 @@
             "blocks": "minecraft:bamboo_block"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:stripped_bamboo_block"
             }
           }
@@ -579,7 +579,7 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -587,9 +587,9 @@
             "blocks": "minecraft:exposed_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_block"
             }
           }
@@ -600,9 +600,9 @@
             "blocks": "minecraft:weathered_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper"
             }
           }
@@ -613,9 +613,9 @@
             "blocks": "minecraft:oxidized_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper"
             }
           }
@@ -626,9 +626,9 @@
             "blocks": "minecraft:exposed_cut_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:cut_copper"
             }
           }
@@ -639,9 +639,9 @@
             "blocks": "minecraft:weathered_cut_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_cut_copper"
             }
           }
@@ -652,9 +652,9 @@
             "blocks": "minecraft:oxidized_cut_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_cut_copper"
             }
           }
@@ -665,9 +665,9 @@
             "blocks": "minecraft:exposed_chiseled_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:chiseled_copper"
             }
           }
@@ -678,9 +678,9 @@
             "blocks": "minecraft:weathered_chiseled_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_chiseled_copper"
             }
           }
@@ -691,9 +691,9 @@
             "blocks": "minecraft:oxidized_chiseled_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_chiseled_copper"
             }
           }
@@ -704,9 +704,9 @@
             "blocks": "minecraft:exposed_cut_copper_slab"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:cut_copper_slab"
             }
           }
@@ -717,9 +717,9 @@
             "blocks": "minecraft:weathered_cut_copper_slab"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_cut_copper_slab"
             }
           }
@@ -730,9 +730,9 @@
             "blocks": "minecraft:oxidized_cut_copper_slab"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_cut_copper_slab"
             }
           }
@@ -743,9 +743,9 @@
             "blocks": "minecraft:exposed_cut_copper_stairs"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:cut_copper_stairs"
             }
           }
@@ -756,9 +756,9 @@
             "blocks": "minecraft:weathered_cut_copper_stairs"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_cut_copper_stairs"
             }
           }
@@ -769,9 +769,9 @@
             "blocks": "minecraft:oxidized_cut_copper_stairs"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_cut_copper_stairs"
             }
           }
@@ -782,9 +782,9 @@
             "blocks": "minecraft:exposed_copper_trapdoor"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_trapdoor"
             }
           }
@@ -795,9 +795,9 @@
             "blocks": "minecraft:weathered_copper_trapdoor"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_trapdoor"
             }
           }
@@ -808,9 +808,9 @@
             "blocks": "minecraft:oxidized_copper_trapdoor"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_trapdoor"
             }
           }
@@ -821,9 +821,9 @@
             "blocks": "minecraft:exposed_copper_bars"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_bars"
             }
           }
@@ -834,9 +834,9 @@
             "blocks": "minecraft:weathered_copper_bars"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_bars"
             }
           }
@@ -847,9 +847,9 @@
             "blocks": "minecraft:oxidized_copper_bars"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_bars"
             }
           }
@@ -860,9 +860,9 @@
             "blocks": "minecraft:exposed_copper_grate"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_grate"
             }
           }
@@ -873,9 +873,9 @@
             "blocks": "minecraft:weathered_copper_grate"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_grate"
             }
           }
@@ -886,9 +886,9 @@
             "blocks": "minecraft:oxidized_copper_grate"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_grate"
             }
           }
@@ -899,9 +899,9 @@
             "blocks": "minecraft:exposed_copper_bulb"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_bulb"
             }
           }
@@ -912,9 +912,9 @@
             "blocks": "minecraft:weathered_copper_bulb"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_bulb"
             }
           }
@@ -925,9 +925,9 @@
             "blocks": "minecraft:oxidized_copper_bulb"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_bulb"
             }
           }
@@ -938,9 +938,9 @@
             "blocks": "minecraft:exposed_copper_lantern"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_lantern"
             }
           }
@@ -951,9 +951,9 @@
             "blocks": "minecraft:weathered_copper_lantern"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_lantern"
             }
           }
@@ -964,9 +964,9 @@
             "blocks": "minecraft:oxidized_copper_lantern"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_lantern"
             }
           }
@@ -977,9 +977,9 @@
             "blocks": "minecraft:exposed_copper_golem_statue"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_golem_statue"
             }
           }
@@ -990,9 +990,9 @@
             "blocks": "minecraft:weathered_copper_golem_statue"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_golem_statue"
             }
           }
@@ -1003,9 +1003,9 @@
             "blocks": "minecraft:oxidized_copper_golem_statue"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_golem_statue"
             }
           }
@@ -1016,9 +1016,9 @@
             "blocks": "minecraft:exposed_lightning_rod"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:lightning_rod"
             }
           }
@@ -1029,9 +1029,9 @@
             "blocks": "minecraft:weathered_lightning_rod"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_lightning_rod"
             }
           }
@@ -1042,9 +1042,9 @@
             "blocks": "minecraft:oxidized_lightning_rod"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_lightning_rod"
             }
           }
@@ -1055,9 +1055,9 @@
             "blocks": "minecraft:exposed_copper_chain"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_chain"
             }
           }
@@ -1068,9 +1068,9 @@
             "blocks": "minecraft:weathered_copper_chain"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_chain"
             }
           }
@@ -1081,9 +1081,9 @@
             "blocks": "minecraft:oxidized_copper_chain"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_chain"
             }
           }
@@ -1096,7 +1096,7 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -1104,9 +1104,9 @@
             "blocks": "minecraft:exposed_copper_chest"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_chest"
             }
           }
@@ -1117,9 +1117,9 @@
             "blocks": "minecraft:weathered_copper_chest"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_chest"
             }
           }
@@ -1130,9 +1130,9 @@
             "blocks": "minecraft:oxidized_copper_chest"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_chest"
             }
           }
@@ -1147,7 +1147,7 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -1155,9 +1155,9 @@
             "blocks": "minecraft:exposed_copper_door"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_door"
             }
           }
@@ -1168,9 +1168,9 @@
             "blocks": "minecraft:weathered_copper_door"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_door"
             }
           }
@@ -1181,9 +1181,9 @@
             "blocks": "minecraft:oxidized_copper_door"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_door"
             }
           }
@@ -1197,7 +1197,7 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -1205,9 +1205,9 @@
             "blocks": "minecraft:waxed_copper_block"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_block"
             }
           }
@@ -1218,9 +1218,9 @@
             "blocks": "minecraft:waxed_exposed_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper"
             }
           }
@@ -1231,9 +1231,9 @@
             "blocks": "minecraft:waxed_weathered_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper"
             }
           }
@@ -1244,9 +1244,9 @@
             "blocks": "minecraft:waxed_oxidized_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper"
             }
           }
@@ -1257,9 +1257,9 @@
             "blocks": "minecraft:waxed_cut_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:cut_copper"
             }
           }
@@ -1270,9 +1270,9 @@
             "blocks": "minecraft:waxed_exposed_cut_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_cut_copper"
             }
           }
@@ -1283,9 +1283,9 @@
             "blocks": "minecraft:waxed_weathered_cut_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_cut_copper"
             }
           }
@@ -1296,9 +1296,9 @@
             "blocks": "minecraft:waxed_oxidized_cut_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_cut_copper"
             }
           }
@@ -1309,9 +1309,9 @@
             "blocks": "minecraft:waxed_cut_copper_slab"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:cut_copper_slab"
             }
           }
@@ -1322,9 +1322,9 @@
             "blocks": "minecraft:waxed_exposed_cut_copper_slab"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_cut_copper_slab"
             }
           }
@@ -1335,9 +1335,9 @@
             "blocks": "minecraft:waxed_weathered_cut_copper_slab"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_cut_copper_slab"
             }
           }
@@ -1348,9 +1348,9 @@
             "blocks": "minecraft:waxed_oxidized_cut_copper_slab"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_cut_copper_slab"
             }
           }
@@ -1361,9 +1361,9 @@
             "blocks": "minecraft:waxed_cut_copper_stairs"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:cut_copper_stairs"
             }
           }
@@ -1374,9 +1374,9 @@
             "blocks": "minecraft:waxed_exposed_cut_copper_stairs"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_cut_copper_stairs"
             }
           }
@@ -1387,9 +1387,9 @@
             "blocks": "minecraft:waxed_weathered_cut_copper_stairs"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_cut_copper_stairs"
             }
           }
@@ -1400,9 +1400,9 @@
             "blocks": "minecraft:waxed_oxidized_cut_copper_stairs"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_cut_copper_stairs"
             }
           }
@@ -1413,9 +1413,9 @@
             "blocks": "minecraft:waxed_chiseled_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:chiseled_copper"
             }
           }
@@ -1426,9 +1426,9 @@
             "blocks": "minecraft:waxed_exposed_chiseled_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_chiseled_copper"
             }
           }
@@ -1439,9 +1439,9 @@
             "blocks": "minecraft:waxed_weathered_chiseled_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_chiseled_copper"
             }
           }
@@ -1452,9 +1452,9 @@
             "blocks": "minecraft:waxed_oxidized_chiseled_copper"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_chiseled_copper"
             }
           }
@@ -1465,9 +1465,9 @@
             "blocks": "minecraft:waxed_copper_trapdoor"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_trapdoor"
             }
           }
@@ -1478,9 +1478,9 @@
             "blocks": "minecraft:waxed_exposed_copper_trapdoor"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_trapdoor"
             }
           }
@@ -1491,9 +1491,9 @@
             "blocks": "minecraft:waxed_weathered_copper_trapdoor"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_trapdoor"
             }
           }
@@ -1504,9 +1504,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_trapdoor"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_trapdoor"
             }
           }
@@ -1517,9 +1517,9 @@
             "blocks": "minecraft:waxed_copper_bars"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_bars"
             }
           }
@@ -1530,9 +1530,9 @@
             "blocks": "minecraft:waxed_exposed_copper_bars"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_bars"
             }
           }
@@ -1543,9 +1543,9 @@
             "blocks": "minecraft:waxed_weathered_copper_bars"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_bars"
             }
           }
@@ -1556,9 +1556,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_bars"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_bars"
             }
           }
@@ -1569,9 +1569,9 @@
             "blocks": "minecraft:waxed_copper_grate"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_grate"
             }
           }
@@ -1582,9 +1582,9 @@
             "blocks": "minecraft:waxed_exposed_copper_grate"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_grate"
             }
           }
@@ -1595,9 +1595,9 @@
             "blocks": "minecraft:waxed_weathered_copper_grate"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_grate"
             }
           }
@@ -1608,9 +1608,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_grate"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_grate"
             }
           }
@@ -1621,9 +1621,9 @@
             "blocks": "minecraft:waxed_copper_bulb"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_bulb"
             }
           }
@@ -1634,9 +1634,9 @@
             "blocks": "minecraft:waxed_exposed_copper_bulb"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_bulb"
             }
           }
@@ -1647,9 +1647,9 @@
             "blocks": "minecraft:waxed_weathered_copper_bulb"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_bulb"
             }
           }
@@ -1660,9 +1660,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_bulb"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_bulb"
             }
           }
@@ -1673,9 +1673,9 @@
             "blocks": "minecraft:waxed_copper_golem_statue"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_golem_statue"
             }
           }
@@ -1686,9 +1686,9 @@
             "blocks": "minecraft:waxed_exposed_copper_golem_statue"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_golem_statue"
             }
           }
@@ -1699,9 +1699,9 @@
             "blocks": "minecraft:waxed_weathered_copper_golem_statue"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_golem_statue"
             }
           }
@@ -1712,9 +1712,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_golem_statue"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_golem_statue"
             }
           }
@@ -1725,9 +1725,9 @@
             "blocks": "minecraft:waxed_lightning_rod"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:lightning_rod"
             }
           }
@@ -1738,9 +1738,9 @@
             "blocks": "minecraft:waxed_exposed_lightning_rod"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_lightning_rod"
             }
           }
@@ -1751,9 +1751,9 @@
             "blocks": "minecraft:waxed_weathered_lightning_rod"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_lightning_rod"
             }
           }
@@ -1764,9 +1764,9 @@
             "blocks": "minecraft:waxed_oxidized_lightning_rod"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_lightning_rod"
             }
           }
@@ -1777,9 +1777,9 @@
             "blocks": "minecraft:waxed_copper_lantern"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_lantern"
             }
           }
@@ -1790,9 +1790,9 @@
             "blocks": "minecraft:waxed_exposed_copper_lantern"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_lantern"
             }
           }
@@ -1803,9 +1803,9 @@
             "blocks": "minecraft:waxed_weathered_copper_lantern"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_lantern"
             }
           }
@@ -1816,9 +1816,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_lantern"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_lantern"
             }
           }
@@ -1829,9 +1829,9 @@
             "blocks": "minecraft:waxed_copper_chain"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_chain"
             }
           }
@@ -1842,9 +1842,9 @@
             "blocks": "minecraft:waxed_exposed_copper_chain"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_chain"
             }
           }
@@ -1855,9 +1855,9 @@
             "blocks": "minecraft:waxed_weathered_copper_chain"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_chain"
             }
           }
@@ -1868,9 +1868,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_chain"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_chain"
             }
           }
@@ -1883,7 +1883,7 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -1891,9 +1891,9 @@
             "blocks": "minecraft:waxed_copper_chest"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_chest"
             }
           }
@@ -1904,9 +1904,9 @@
             "blocks": "minecraft:waxed_exposed_copper_chest"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_chest"
             }
           }
@@ -1917,9 +1917,9 @@
             "blocks": "minecraft:waxed_weathered_copper_chest"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_chest"
             }
           }
@@ -1930,9 +1930,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_chest"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_chest"
             }
           }
@@ -1947,7 +1947,7 @@
   },
   {
     "block_state_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -1955,9 +1955,9 @@
             "blocks": "minecraft:waxed_copper_door"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:copper_door"
             }
           }
@@ -1968,9 +1968,9 @@
             "blocks": "minecraft:waxed_exposed_copper_door"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:exposed_copper_door"
             }
           }
@@ -1981,9 +1981,9 @@
             "blocks": "minecraft:waxed_weathered_copper_door"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:weathered_copper_door"
             }
           }
@@ -1994,9 +1994,9 @@
             "blocks": "minecraft:waxed_oxidized_copper_door"
           },
           "then": {
-            "type": "minecraft:copy_properties_provider",
+            "type": "minecraft:copy_properties",
             "source": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": "minecraft:oxidized_copper_door"
             }
           }
